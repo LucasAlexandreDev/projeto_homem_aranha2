@@ -9,31 +9,47 @@ body{
     }
     
     header span{
-        font-size: 20px; 
+        font-size: 1.5vh; 
     }
     .container_texto{
         display: flex;
         justify-content: end;
         gap: 30px;
         color: white;
-        font-size: 20px;
         z-index: 1;
         top: -30px;
-        margin-right: 12%;
+        margin-right: 10%;
     }
     
     .indicador_pagina{
         z-index: 2;
         display: flex;
         align-items: center;
-        margin-left: 70%;
+        margin-left: 64.5%;
         transform: rotate(90deg);
         background-color: #910D0C;
         height: 40px;
         width: 10px;
-        top: -50%;
-
-        
     }
 
+   .homens_aranha{
+    height: 500px;
+    width: 500px;
+    margin-top: -100px;
+    margin-left: 150px;
+   }
+
+   .logo{
+    margin-left: 150px;
+   }
+
+.resumo h3{
+    color: white;
+    font-size: 20px;
+    margin-left: 700px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
    
